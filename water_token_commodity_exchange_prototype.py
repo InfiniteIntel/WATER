@@ -8,15 +8,15 @@ from xrpl.transaction import Payment
 # Connect to the XRP Ledger (replace with your preferred XRP Ledger provider)
 xrp_client = JsonRpcClient("https://xrpl.example.com")
 
-# Define the WATER token details (assuming it already exists on the XRP Ledger)
+# Define the WATER token details (it already exists on the XRP Ledger)
 water_token_symbol = "WATER"
 water_token_supply = 15000000000  # 15 billion tokens
 
 # Define the prototype exchange for space water
 class SpaceWaterExchange:
     def __init__(self):
-        self.locations = ["Enceladus (Saturn)", "Location2", "Location3", "Location4", "Location5",
-                         "Location6", "Location7", "Location8", "Location9", "Location10"]
+        self.locations = ["Enceladus (Saturn)", "Mars", "Moon (of Earth)", "Lagrange Point 1 (Earth)", "LEO",
+                         "GEO", "Europa (Jupiter)", "Titan (Saturn)", "Ceres (asteroid belt)", "Callisto (Jupiter)"]
 
     def initiate_exchange(self, sender_wallet, destination, amount):
         # Validate location
