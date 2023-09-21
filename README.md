@@ -9,7 +9,7 @@ Table of Contents:
    
 2. An overview of the project and how to run the prototype.
      water_token_prototype.py: Initial Python code for token creation and basic functionality.
-     sample_contract.sol: A smart contract example.
+     sample_WATER_commodities_exchange.js
      documentation.md: Technical specifications and preview documentation.
 
 3. Getting Started
