@@ -50,13 +50,13 @@ Getting Started:
      
      2. Install the required dependencies (if any) mentioned in the README.
      
-     3. Execute the water_token_prototype.py script to interact with the Water Token.
+     3. Execute the water_token_commodity_exchange_prototype.py script to interact with the Water Token.
 
 Usage:
 
     The prototype allows you to perform the following actions:
     
-    * Use a basic Water Token on the XRP Ledger.
+    * Use a WATER token on the XRP Ledger.
    
     * Interact with the token using simple commands.
 
