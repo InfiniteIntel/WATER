@@ -11,7 +11,7 @@ Table of Contents:
    
 3. An overview of the project and how to run the prototype.
    
-     water_token_prototype.py: Initial Python code for token creation and basic functionality.
+     water_token_commodity_exchange_prototype.py: Initial Python code for token creation and basic functionality.
    
      sample_WATER_commodities_exchange.js
    
